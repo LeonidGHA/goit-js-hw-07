@@ -1,6 +1,5 @@
 import { galleryItems } from "./gallery-items.js";
 // Change code below this line
-// console.log(galleryItems);
 const mainGalleryEl = document.querySelector(".gallery");
 const imagesCardEl = createImagesCards(galleryItems);
 
@@ -25,7 +24,6 @@ function createImagesCards(galleryItems) {
     })
     .join("");
 }
-// console.log(createImagesCards(galleryItems));
 
 let instance;
 
